@@ -1,4 +1,7 @@
 {
+	"exclude": [
+		"libs"
+	],
 	"compilerOptions": {
 		"module": "Node16",
 		"target": "ES2022",
