@@ -1,0 +1,25 @@
+{
+  "name": "virgil-lsp",
+  "displayName": "virgil-lsp",
+  "description": "A language server for the Virgil programming language.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "virgil",
+      "aliases": ["Virgil", "virgil"],
+      "extensions": [".v3"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "virgil",
+      "scopeName": "source.virgil",
+      "path": "./syntaxes/virgil.tmLanguage.json"
+    }]
+  }
+}
